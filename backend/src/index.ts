@@ -13,6 +13,6 @@ app.use(express.json());
 app.use("/api/auth", authRoutes); //don't forget the front slash/api
 app.use("/api/messages", messageRoutes);
 
-app.listen(5000, () => {
-  console.log("listening on port 5000");
+app.listen(5001, () => {
+  console.log("listening on port 5001");
 });
